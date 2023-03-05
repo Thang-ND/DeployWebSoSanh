@@ -24,13 +24,13 @@ function Navbar() {
           </div> */}
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <a href='http://localhost:3000/' className='nav-links' onClick={closeMobileMenu}>
+              <a href='https://deploy-web-so-sanh.vercel.app/' className='nav-links' onClick={closeMobileMenu}>
                 Home
               </a>
             </li>
             <li className='nav-item'>
               <a
-                href='http://localhost:3000/services'
+                href='https://deploy-web-so-sanh.vercel.app/services'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
@@ -39,7 +39,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <a
-                href='http://localhost:3000/products'
+                href='https://deploy-web-so-sanh.vercel.app/products'
                 className='nav-links'
                 onClick={() => closeMobileMenu}
               >
@@ -48,7 +48,7 @@ function Navbar() {
             </li>
             <li className='nav-item'>
               <a
-                href='http://localhost:3000/fluctuations'
+                href='https://deploy-web-so-sanh.vercel.app/fluctuations'
                 className='nav-links'
                 onClick={closeMobileMenu}
               >
