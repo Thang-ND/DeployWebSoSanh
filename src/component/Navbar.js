@@ -15,7 +15,7 @@ function Navbar() {
     <>
       <nav className='navbar'>
         <div className='navbar-container'>
-          <a href='http://localhost:3000/' className='navbar-logo' onClick={closeMobileMenu}>
+          <a href='https://deploy-web-so-sanh.vercel.app/' className='navbar-logo' onClick={closeMobileMenu}>
             HUST & NDT 
             <i class='fas fa-spa' />
           </a>
